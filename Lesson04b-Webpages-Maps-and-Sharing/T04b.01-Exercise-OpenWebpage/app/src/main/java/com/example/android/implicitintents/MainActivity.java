@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         // COMPLETED (5) Create a String that contains a URL ( make sure it starts with http:// or https://
         String  udacityurl = "http://www.udacity.com";
 
-        // TODO (6) Replace the Toast with a call to openWebPage, passing in the URL String from the previous step
+        // COMPLETED (6) Replace the Toast with a call to openWebPage, passing in the URL String from the previous step
 
         openWebPage(udacityurl);
 
