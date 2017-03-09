@@ -63,7 +63,7 @@ public class SettingsFragment extends PreferenceFragmentCompat implements  OnSha
         Preference preference = findPreference(value);
         if(preference != null){
             if(!(preference instanceof CheckBoxPreference)){
-                String stringValue = sharedPreferences.getString(preference.getKey(), "");
+                String stringValue = sharedPreferences.getString(preference.getKey(),"");
                 setPreferencsSummary(preference,stringValue);
             }
         }
